@@ -1,0 +1,29 @@
+{
+    "name": "ulss",
+    "displayName": "Ulysses Styles Syntax (ULSS)",
+    "description": "This package provides a syntax for Ulysses Styles.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ulss",
+            "aliases": ["ULSS", "ulss"],
+            "extensions": [".ulss"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ulss",
+            "scopeName": "source.ulss",
+            "path": "./syntaxes/ulss.json"
+        }],
+        "snippets": [{
+            "language": "ulss",
+            "path": "./snippets/snippets.json"
+        }]
+    }
+}
