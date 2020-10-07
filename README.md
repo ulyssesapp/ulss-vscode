@@ -1,9 +1,5 @@
-# ULSS for Visual Studio Code
+# ULSS Syntax for Visual Studio Code
 
-Ulysses Styles support for Visual Studio Code.
+Ulysses Style Sheet support for Visual Studio Code. Originally ported by [Alex Payne](https://github.com/al3x).
 
-Ported from the official Ulysses Styles plugin for Atom, [language-ulss](https://github.com/soulmen/language-ulss).
-
-## Features
-
-Provides syntax highlighting and snippets.
+For more info on Ulysses Style Sheets see the [Ulysses Style Sheet References](https://ulysses.app/styles/reference).

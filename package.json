@@ -1,8 +1,12 @@
 {
     "name": "ulss",
-    "displayName": "Ulysses Styles Syntax (ULSS)",
-    "description": "This package provides a syntax for Ulysses Styles.",
-    "version": "0.0.1",
+    "displayName": "Ulysses Style Sheets",
+    "description": "Syntax highlighting and snippets for .ulss (Ulysses Style Sheet) files.",
+    "icon": "icon.png",
+    "publisher": "Ulysses",
+    "version": "1.0.0",
+    "repository": "https://github.com/soulmen/ulss-vscode",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.49.0"
     },
