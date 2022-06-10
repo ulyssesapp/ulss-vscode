@@ -8,6 +8,14 @@
       "prefix": "hea",
       "body": "heading-${1|1,2,3,4,5,6,all|}${2|,:first,:last|} {\n\t${3}\n}"
     },
+    "Table": {
+      "prefix": "tab",
+      "body": "table {\n\t${1}\n}"
+    },
+    "Table Cell": {
+      "prefix": "cel",
+      "body": "table-cell${1|,:body,:header,:header-row,:header-column,:header-row-boundary,:header-column-boundary,:header-left,:header-right,:header-top,:header-bottom|} {\n\t${2}\n}"
+    },
     "List": {
       "prefix": "lis",
       "body": "list-${1|all,ordered,unordered|}${2|,:first,:last,:enumerator|} {\n\t${3}\n}"
