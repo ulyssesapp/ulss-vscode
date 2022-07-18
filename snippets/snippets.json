@@ -384,7 +384,7 @@
     },
     "text-alignment": {
       "prefix": "text",
-      "body": "text-alignment:\t\t\t${1|left,center,right,justified|}"
+      "body": "text-alignment:\t\t\t${1|left,center,right,justified,auto|}"
     },
     "text-inset": {
       "prefix": "text",
@@ -413,6 +413,10 @@
     "visibility": {
       "prefix": "visi",
       "body": "visibility:\t\t\t\t${1|hidden,visible|}"
+    }
+    "vertical-alignment": {
+      "prefix": "vert",
+      "bord": "vertical-alignment:\t\t\t\t${1|top,center,bottom|}"
     }
   }
 }
